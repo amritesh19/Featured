@@ -36,35 +36,76 @@ Frontend
   - video player, metadata, summary
 - Submit film
   - Movie form with dropbox and other capabilities
-  - Only for logged-in user
+  - Only for logged-in user (protected route)
+- Login & Register Form
+  - User Authentication - using jsonwebtoken
+  - User Authorisation - joi for schema description & data validation
+    
 
 Backend
 - Express
+  - writing apis (REST) & routes
+- Mongoose
+  - defining schema
+  - connection to MongoDB
+- jsonwebtoken
+  - decode, verify and generate JWT
+- winston
+  - logging support
+- joi
+  - data validation
+- cors
+  - allowing backend to send data to frontend
+- config
+  - storing configuration files, environment variables
+- bcrypt
+  - storing passwords
 
 Database
-- Models
+- MongoDB Collections
+  - genres
+    - id
+    - name
+  - movies
+    - title
+    - genreId
+    - duration
+    - language
+    - source
+    - description
+  - users
+    - id
+    - name
+    - email
+    - password (encrypted)
+    - isAdmin
 
-Will update above section and tech used tomorrow.
-<!-- ## 💻 Tech Used
+## 💻 Tech Used
 
 ### Programming Languages
-<img height="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png">  &nbsp;&nbsp; <img height="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"> 
+<img height="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png">  &nbsp;&nbsp;
 
 ### Frontend Development
-<img height="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"> &nbsp;&nbsp;  
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"> &nbsp;
 <img height="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png"> &nbsp;&nbsp; 
 <img height="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"> &nbsp;&nbsp; 
-<img height="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> &nbsp;&nbsp; 
-<img height="50" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png"> &nbsp;&nbsp; 
-<img height="50" src="https://user-images.githubusercontent.com/25181517/188324036-d704ac9a-6e61-4722-b978-254b25b61bed.png">
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> &nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/73696688/218963583-393e8590-5e17-4895-8bbb-a918285575bf.png"> &nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png"> &nbsp;&nbsp;
 
-### Backend as a Service(BaaS)
-<img height="50" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png">
+
+### Backend Development
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png">&nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png">&nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png">&nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/73696688/218965612-f97d1664-84d8-4d9e-a171-3b2b4517d54a.png">&nbsp;&nbsp;
+
+### Database
+<img height="50" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png">&nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/73696688/218967070-80af87b7-8278-4748-9ab3-4de937fe9963.png">&nbsp;&nbsp;
 
 ### Deployment
-<img height="50" src="https://user-images.githubusercontent.com/73696688/210962754-867d8d6f-4ee2-4029-a09b-d899c435823b.png">
+<img height="50" src="https://user-images.githubusercontent.com/73696688/210962754-867d8d6f-4ee2-4029-a09b-d899c435823b.png">&nbsp;&nbsp;
+<img height="50" src="https://user-images.githubusercontent.com/73696688/218966338-ae02f90e-6fde-4755-b6bc-54b83bae428a.png">&nbsp;&nbsp;
 
-### Others
-<img height="50" src="https://user-images.githubusercontent.com/73696688/210963338-ac5f8f19-ff16-4b41-8f57-7e09dc1e2ef0.png"> &nbsp;&nbsp;
-<img height="50" src="https://user-images.githubusercontent.com/73696688/210964677-e7b2b490-8dc0-4f49-9472-7dd11acd6599.png">
- -->
+ 
