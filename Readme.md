@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://featuredx.vercel.app/">
-    <img src="https://user-images.githubusercontent.com/73696688/218806920-c4e560ae-8a8a-4b40-95e8-24a1c59c915d.png" />
+    <img src="https://user-images.githubusercontent.com/73696688/197396782-99097ae2-53fb-4caa-a28f-704df194f88e.png" />
   </a>
 </p>
 
@@ -13,7 +13,9 @@
 
 ## ✨ Demo
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73696688/197396782-99097ae2-53fb-4caa-a28f-704df194f88e.png"/>
+<!-- <img src="https://user-images.githubusercontent.com/73696688/197396782-99097ae2-53fb-4caa-a28f-704df194f88e.png"/> -->
+<img src="https://github.com/amritesh19/Featured/blob/main/featured-demo.gif"/>
+<!-- /amritesh19/Featured/blob/main/featured-demo.gif -->
 </p>
 
 ## 🎯 Goal of the project
